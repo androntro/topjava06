@@ -89,7 +89,7 @@ O- это коэффициент. поэтому нет O(N+N), есть O(N).
 
 Вообще исходники есть: `java.util.HashMap.containsKey`. Устройство Map (и вообще коллекции)- одни из самых частых вопросов на собеседовании.
 Читаем <a href="https://habrahabr.ru/users/tarzan82/topics/">Структуры данных в картинках</a> и <a href="https://habrahabr.ru/post/162017/">Java собеседование. Коллекции</a>.
-При хорошем распределении ключей сложность HashMap.containsKey - O(1), TreeMap.containsKey - O(log2 N), а LinkedList.contains- O(N).
+При хорошем распределении ключей сложность `HashMap.containsKey - O(1), TreeMap.containsKey - O(log2 N), а LinkedList.contains- O(N)`.
 
 ### Типичные ошибки в домашнем задании:
 - Объявление переменных
