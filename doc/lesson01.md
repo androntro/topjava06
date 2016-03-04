@@ -1,4 +1,4 @@
-# Занятие 1 онлайн проекта <a href="https://github.com/JavaWebinar/topjava06">Topjava</a>
+# Онлайн проекта <a href="https://github.com/JavaWebinar/topjava06">Topjava</a>
 
 - **Напоминаю, что cвой код пишете только в ветках HWxx. Код в ветке MASTER трогать нельзя!
 Модификация кода только через патчи в материалах урока (Apply Patch), иначе придется мержить код.
@@ -14,21 +14,23 @@
 
 ## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfm5hSHEtbmxmN2kxb0NocVRwWl9KanowWXVCVXRZTlhaM09wQUswZkRidTA">Материалы урока</a>
 
-## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOGU0a3ZUbFo3Skk">HW0 (Optional): реализация getFilteredMealsWithExceeded через Stream API</a> 
+## Разбор домашнего задания HW0:
+### 1. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOGU0a3ZUbFo3Skk">HW0 (Optional): реализация getFilteredMealsWithExceeded через Stream API</a> 
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcUp4Z3d0Rk93TzQ">1-1-HW0-stream.patch</a>**
 
-## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFdTJIQUExajZWWkE">Работа с git в IDEA. HW0: реализация через цикл.</a> 
+### 2. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFdTJIQUExajZWWkE">Работа с git в IDEA. HW0: реализация через цикл.</a> 
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFaGJwVXh2eFlTWW8">1-2-HW0-cycle.patch</a>**
 
 > Изменения в проекте: `map.getOrDefault` земенил на `map.merge`, `for` заменены на `forEach`
 
-## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFRmo0YkVVaDJPTVE">Обзор используемых в проекте технологий. Интеграция ПО.</a>
+## Занятие 1:
+### 1. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFRmo0YkVVaDJPTVE">Обзор используемых в проекте технологий. Интеграция ПО.</a>
 -  <a href="http://zeroturnaround.com/rebellabs/java-tools-and-technologies-landscape-for-2014/">Обзор популярности инструментов и технологий Java за 2014 г.</a>
 -  <a href="http://www.youtube.com/watch?v=rJZHerwi8R0">Видео "Приложение Spring Pet Clinic"</a> 
 -  Приложение <a href="https://github.com/spring-projects/spring-petclinic">Spring Pet Clinic</a>. 
 -  Demo <a href="http://petclinic.cloudapp.net/">Spring Pet Clinic</a>
 
-## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSlZMTXBJRXJpakU">Maven.</a>
+### 2. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSlZMTXBJRXJpakU">Maven.</a>
 - Среда сборки проектов <a href="http://www.apache-maven.ru/" target="_blank">Maven</a>.
 - <a href="http://search.maven.org/#browse">The Central Repository</a>
 - Настройка пропертей Maven: кодировка, java version, зависимости, maven-compiler-plugin
@@ -45,7 +47,7 @@
   - <a href="http://www.ibm.com/developerworks/ru/library/j-5things13/">Зависимости, профили</a>
   - <a href="http://blog.bintray.com/2014/02/11/bintray-as-pain-free-gateway-to-maven-central/">Bintray: gateway to Maven Central</a>
 
-## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFT3pWNkMzWVVybnc">WAR. Веб-контейнер Tomcat. Сервлеты.</a>
+### 3. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFT3pWNkMzWVVybnc">WAR. Веб-контейнер Tomcat. Сервлеты.</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFODM5dkxwMUNsVnM">1-3-switch-to-war.patch</a>**
 > Сервлет добавляется в следующем патче, те в web.xml он будет подчеркиваться красным.
 
@@ -70,7 +72,7 @@
   - <a href="http://www.techinfo.net.ru/docs/web/javawebdev.html">Технологии Java для разработки веб-приложений</a>
   - <a href="http://blog.trifork.com/2014/07/14/how-to-remotely-debug-application-running-on-tomcat-from-within-intellij-idea">Remotely debug on tomcat from IDEA</a>
 
-## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFaTdYUnpLNFFUeXM">Логирование.</a>
+### 4. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFaTdYUnpLNFFUeXM">Логирование.</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFaWQ0bFJpcGdweGc">1-6-logging.patch</a>**
 > **установите переменную окружения на TOPJAVA_ROOT на корень проекта и перезапустите IDEA**
 
@@ -83,18 +85,17 @@
 - Конфигурирование логирования. Настройка Live Template.
 - Тестирование логирования в сервлете.
 
-### Проверочные вопросы:
+#### Проверочные вопросы:
 - Что нужно изменить в `pom.xml`, чтобы перейти с logback на log4j ?
 
-## Дополнительно
-### <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeE9LQTdDOTZTOGc">Подсоединение к логгеру по JMX. Выбор работы.</a>
+### 5. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeE9LQTdDOTZTOGc">Подсоединение к логгеру по JMX. Выбор работы.</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQWxEV1NRLXUyTlk">1-7-remote-jmx.patch</a>**
 
 > Для подключения к Remote Process (`localhost:1099`) положить `setenv.bat` в `$TOMCET_HOME/bin`.
 
 - Управление логированием по <a href="https://ru.wikipedia.org/wiki/Java_Management_Extensions">Java Management Extensions</a>.
 
-## Домашнее задание (делаем ветку HW01 от последнего патча)
+## Домашнее задание HW01 (делаем ветку HW01 от последнего патча)
 
     По аналогии с Users добавить MealServlet и mealList.jsp.
     Задеплоить приложение (war) в Tomcat c applicationContext=topjava
